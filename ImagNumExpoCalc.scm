@@ -4,9 +4,7 @@
 (display "Enter i to any integer power: ")
 (newline)
 
-
 (define exp (read))
-
 
 (if (number? exp)
   (if (integer? exp)
@@ -28,4 +26,5 @@
     (display "-1")
     (if (= rem 1)
       (display "i")
+
       (display "1"))))
