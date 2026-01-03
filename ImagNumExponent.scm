@@ -10,11 +10,11 @@
   (if (integer? exp)
     #t
     (begin
-      (display "Invalid: Must be a whole number.")
+      (display "Invalid: Must be a whole number!")
       (newline)
       (exit)))
   (begin
-      (display "Invalid: Must be numeric.")
+      (display "Invalid: Must be a number!")
       (newline)
       (exit)))
       
@@ -28,3 +28,4 @@
       (display "i")
 
       (display "1"))))
+
