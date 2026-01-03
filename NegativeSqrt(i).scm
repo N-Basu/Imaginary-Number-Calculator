@@ -15,7 +15,7 @@
         (newline))
       (imagi-root input))
       (begin
-        (display "Invalid input")
+        (display "Invalid input!")
         (newline))))
 
 (newline)
