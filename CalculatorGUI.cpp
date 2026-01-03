@@ -10,7 +10,7 @@ void on_button_click(Fl_Widget* widget, void* data) {
 int main() {
   Fl_Window* window = new Fl_window(400, 400, "FLTK GUI");
 
-  Fl_Button* button = new Fl_button(150, 100, 100, 40, "Enter");
+  Fl_Button* button = new Fl_button(150, 100, 100, 40, "Enter input");
 
   button->callback(on_button_click);
 
